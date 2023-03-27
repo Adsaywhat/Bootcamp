@@ -1,0 +1,11 @@
+1. create days variable = to new array
+2. create weather variable = to new array
+3. create maxTemp variable = to 100
+4. create minTemp variable = 0
+5. call generateWeather function
+6. enter the loop while i < the length of the days array the loop will run i is initialised at 0 so condition is checked and moves to the code body
+7. weatherToday variable is declared and made = the result of running the math.random method * length of the weather array to return a random decimal number in the range of the array length. the math.floor method then removes the decimal and we left with a random whole number in the range of the weatherToday array length we use this to point to random index of array.
+8. similar expression as above but this time on tempToday array. to output a random temperature
+9. this line of code adds a div with the id of the element specified by the index of the days array and class of the random value in weatherToday variable to the innerhtml of the div with the 5dayWeather id in the html. this will control the styling in the css. it also outputs string  that concatenates the variables that show the random weather & temparature values in the day.
+10.increments the i counter and recycles the loop 
+11. the cycles until days array i counter is = length of days array that causes to exit loop

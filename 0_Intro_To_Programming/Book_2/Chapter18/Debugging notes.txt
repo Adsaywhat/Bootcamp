@@ -1,0 +1,15 @@
+1. create money variable = 20
+2. create lunches variable = 0
+3. assign money variable as a js shortcut to access div with id of money in html
+4. add click event listener to placeorder button to call buyLunches function
+5. user adds input
+6. resetForm function inside buyLunches function is called to reset form variables and input
+7. then enters buyLunch function code body sets vaiable day = 0
+8. runs while loop & checks if money > 0 
+9. sets a variable priceToday to call getSandwichPrice Function which calculates a random decimal number in a specified range and cuts decimal places to 2 to show cents value return the value as the sandwich price to priceToday variable.
+10. numberOfSandwiches ariable is created and set as js shortcut to get the value of the element in html with id of numSandwiches
+11. a totalPrice variable is created to store the result of the calculation from variable priceToday * numberOSandwiches
+12. we enter an if statement to check if the money is <= totalPrice and calculate remaining money and increment day variable and lunches variable & output a string if it is and cyle through loop again.
+13. Otherwise another string is output and money set 0 which will also end the while loop.
+14. a string message is then output to html with information on how many lunches baught this week including the lunches variable 
+15. end
